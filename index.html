@@ -22,12 +22,13 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/bae75bb48f.js"></script>
   </head>
   <body>
     <div class="container-fulid">
-      <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+      <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-md">
         <a class="navbar-brand">My Brand</a>
         <button
           class="navbar-toggler"
@@ -38,12 +39,25 @@
         </button>
         <div class="collapse navbar-collapse" id="myNav">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link">Home</a></li>
             <li class="nav-item"><a class="nav-link">My Orders</a></li>
             <li class="nav-item"><a class="nav-link">Edit Profile</a></li>
             <li class="nav-item"><a class="nav-link">LogOut</a></li>
           </ul>
         </div>
       </nav>
+      <div class="row">
+        <div class="col-xs-12">
+          <img
+            src="https://images.wallpaperscraft.com/image/coffee_mug_chair_124443_2560x1440.jpg"
+            class="img-fluid"
+          />
+        </div>
+      </div class="row">
+
+      </div>
     </div>
+    <!--After page loads only we have to add JS-->
+    <script src="scripts/main.js"></script>
   </body>
 </html>
